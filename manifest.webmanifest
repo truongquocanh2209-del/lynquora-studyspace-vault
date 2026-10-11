@@ -1,0 +1,17 @@
+{
+  "name": "Lynquora StudySpace",
+  "short_name": "Lynquora",
+  "description": "Không gian học tập cá nhân: bài tập, lịch học, Pomodoro, ghi chú, kho nguồn học liệu và thống kê.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#11111b",
+  "theme_color": "#11111b",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="vi" data-theme="dark" data-accent="violet">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11111b">
+  <meta name="description" content="Lynquora StudySpace — không gian học tập cá nhân với kế hoạch thông minh, ôn tập cách quãng, quản lý thời gian, kho nguồn học liệu và khu giải trí cân bằng.">
+  <meta name="color-scheme" content="dark light">
+  <title>Lynquora StudySpace — Không gian học tập của bạn</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css?v=2.3.0">
+  <script src="app.js?v=2.3.0" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-a" aria-hidden="true"></div>
+  <div class="ambient ambient-b" aria-hidden="true"></div>
+
+  <div id="welcomeScreen" class="welcome-screen">
+    <header class="welcome-header">
+      <a class="brand brand-large" href="#top" aria-label="Lynquora StudySpace trang chủ">
+        <span class="brand-mark"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M11 8v24h20M11 8h8M26 8h5v5"/></svg></span>
+        <span><strong>LYNQUORA</strong><small>STUDYSPACE</small></span>
+      </a>
+      <div class="welcome-header-actions">
+        <button class="icon-button" type="button" data-action="welcome-theme" aria-label="Đổi giao diện" title="Đổi giao diện">◐</button>
+        <button class="button button-quiet" type="button" data-action="open-auth" data-mode="login">Đăng nhập</button>
+        <button class="button button-primary" type="button" data-action="open-auth" data-mode="signup">Tạo không gian <span aria-hidden="true">↗</span></button>
+      </div>
+    </header>
+
+    <main id="top" class="welcome-main">
+      <section class="hero-section">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="pulse-dot"></span> KHÔNG GIAN HỌC TẬP CỦA RIÊNG BẠN</div>
+          <h1>Học có kế hoạch.<br><span class="gradient-text">Tiến bộ có dấu ấn.</span></h1>
+          <p class="hero-description">Tập trung vào điều quan trọng nhất. Gom bài tập, lịch học, ghi chú và thời gian của bạn trong một không gian nhẹ nhàng, rõ ràng và đầy cảm hứng.</p>
+          <div class="hero-actions">
+            <button class="button button-primary button-large" type="button" data-action="open-auth" data-mode="signup">Bắt đầu miễn phí <span aria-hidden="true">→</span></button>
+            <button class="button button-outline button-large" type="button" data-action="enter-guest"><span aria-hidden="true">◉</span> Khám phá bản dùng thử</button>
+          </div>
+          <div class="trust-row"><span class="mini-avatars"><i>✦</i><i>⌁</i><i>◌</i></span><span>Không rối mắt · Không cần cài ứng dụng · Dữ liệu lưu trên thiết bị</span></div>
+        </div>
+        <div class="hero-preview" aria-label="Minh họa bảng điều khiển học tập">
+          <div class="preview-glow"></div>
+          <div class="preview-window">
+            <div class="preview-top"><span class="window-dots"><i></i><i></i><i></i></span><span>MY STUDYSPACE</span><span class="preview-live"><i></i> ACTIVE</span></div>
+            <div class="preview-welcome"><div><small>THỨ HAI, NGÀY MỚI</small><h3>Chào bạn, người học ✨</h3><p>Mỗi bước nhỏ đều đáng giá.</p></div><div class="preview-sun">✳</div></div>
+            <div class="preview-stats"><div><span>Thời gian tập trung</span><strong>02<span>h</span> 15<span>m</span></strong><em>↗ Hôm nay</em></div><div><span>Nhiệm vụ hoàn thành</span><strong>06<span>/08</span></strong><div class="mini-progress"><i></i></div></div></div>
+            <div class="preview-bottom"><div class="preview-chart-head"><span>Nhịp học trong tuần</span><small>+18% ↗</small></div><div class="preview-bars"><i style="height:32%"></i><i style="height:55%"></i><i style="height:42%"></i><i style="height:76%"></i><i style="height:61%"></i><i style="height:92%"></i><i style="height:48%"></i></div><div class="preview-days"><span>T2</span><span>T3</span><span>T4</span><span>T5</span><span>T6</span><span>T7</span><span>CN</span></div></div>
+            <div class="preview-task"><span class="check-circle">✓</span><div><strong>Ôn tập Toán học</strong><small>Phiên tập trung tiếp theo · 25 phút</small></div><span class="task-arrow">↗</span></div>
+          </div>
+          <div class="floating-note floating-note-top"><span>✦</span><div><strong>Tiến bộ mỗi ngày</strong><small>Chậm mà chắc cũng là tiến lên.</small></div></div>
+          <div class="floating-note floating-note-bottom"><span class="floating-clock">◷</span><div><strong>Focus mode</strong><small>25 phút · Một việc một lúc</small></div></div>
+        </div>
+      </section>
+
+      <section class="feature-section">
+        <div class="section-heading"><div class="eyebrow">MỘT NƠI CHO MỌI THỨ</div><h2>Ít phân tâm hơn.<br><span class="muted-heading">Chủ động hơn mỗi ngày.</span></h2><p>Những công cụ học tập thiết thực, kết nối trong cùng một trải nghiệm.</p></div>
+        <div class="feature-grid">
+          <article class="feature-card feature-card-wide"><div class="feature-icon icon-violet">▣</div><div><span class="feature-kicker">01 / LẬP KẾ HOẠCH</span><h3>Việc cần làm, thật rõ ràng</h3><p>Ghi lại bài tập, môn học, độ ưu tiên và hạn hoàn thành. Đánh dấu từng bước để nhìn thấy tiến độ của mình.</p></div><div class="feature-task-list"><div><i class="fake-check checked">✓</i><span>Ôn công thức Vật lý</span><small>Hôm nay</small></div><div><i class="fake-check"></i><span>Viết đoạn tiếng Anh</span><small>Ngày mai</small></div><div><i class="fake-check"></i><span>Làm bài tập Hóa</span><small>Thứ Sáu</small></div></div></article>
+          <article class="feature-card"><div class="feature-icon icon-cyan">◷</div><span class="feature-kicker">02 / QUẢN LÝ THỜI GIAN</span><h3>Tập trung theo nhịp của bạn</h3><p>Pomodoro có thể tùy chỉnh, nhắc nghỉ và ghi nhận các phiên học thực tế.</p><div class="focus-orbit"><div><strong>25:00</strong><small>FOCUS SESSION</small></div></div></article>
+          <article class="feature-card"><div class="feature-icon icon-green">▥</div><span class="feature-kicker">03 / NHÌN LẠI TIẾN ĐỘ</span><h3>Thống kê để hiểu bản thân</h3><p>Theo dõi thời gian học, nhiệm vụ đã xong, mục tiêu ngày và nhịp học trong tuần.</p><div class="feature-sparkline"><i style="height:18%"></i><i style="height:35%"></i><i style="height:28%"></i><i style="height:58%"></i><i style="height:48%"></i><i style="height:78%"></i><i style="height:100%"></i><i style="height:68%"></i><i style="height:87%"></i></div></article>
+          <article class="feature-card feature-card-wide feature-card-notes"><div class="feature-icon icon-peach">✎</div><div><span class="feature-kicker">04 / GHI CHÚ & ÔN TẬP</span><h3>Giữ kiến thức trong tầm tay</h3><p>Ghi chú nhanh, tạo thẻ ghi nhớ, tự kiểm tra bằng bài quiz ngắn và ôn lại theo cách chủ động.</p></div><div class="note-stack"><div><small>ENGLISH · VOCABULARY</small><strong>consistent</strong><p>/kənˈsɪstənt/ · đều đặn, nhất quán</p><span>Review card 01 / 12</span></div><div class="note-back">✦</div></div></article>
+        </div>
+      </section>
+      <section class="bottom-cta"><div><span class="eyebrow">BẠN ĐÃ SẴN SÀNG CHƯA?</span><h2>Bắt đầu từ một việc nhỏ.</h2><p>Hãy tạo một kế hoạch vừa sức và bắt đầu ngay hôm nay.</p></div><button class="button button-primary button-large" type="button" data-action="open-auth" data-mode="signup">Tạo không gian học tập <span>→</span></button></section>
+    </main>
+    <footer class="welcome-footer"><a class="brand" href="#top"><span class="brand-mark brand-mark-small"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M11 8v24h20M11 8h8M26 8h5v5"/></svg></span><span><strong>LYNQUORA</strong><small>STUDYSPACE</small></span></a><p>Một nơi nhỏ để những mục tiêu lớn dần lên.</p><span>© 2026 Lynquora StudySpace · Made for learning</span></footer>
+  </div>
+
+  <div id="appScreen" class="app-screen hidden">
+    <div id="mobileScrim" class="mobile-scrim" data-action="close-sidebar"></div>
+    <aside id="sidebar" class="sidebar">
+      <a class="brand sidebar-brand" href="#" data-action="navigate" data-route="home"><span class="brand-mark"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M11 8v24h20M11 8h8M26 8h5v5"/></svg></span><span><strong>LYNQUORA</strong><small>STUDYSPACE</small></span></a>
+      <div class="sidebar-user"><div class="avatar" id="sidebarAvatar">N</div><div class="sidebar-user-copy"><strong id="sidebarName">Người học</strong><small>Không gian cá nhân</small></div><span class="online-dot" title="Đang hoạt động"></span></div>
+      <div class="token-caption">KHÔNG GIAN HỌC TẬP <span>↕</span></div>
+      <nav id="tokenNav" class="token-nav" aria-label="Các công cụ học tập">
+        <button class="nav-token active" data-action="navigate" data-route="home"><span class="token-icon">⌂</span><span>Tổng quan</span><kbd>01</kbd></button>
+        <button class="nav-token" data-action="navigate" data-route="tasks"><span class="token-icon">✓</span><span>Bài tập & nhiệm vụ</span><kbd>02</kbd></button>
+        <button class="nav-token" data-action="navigate" data-route="schedule"><span class="token-icon">▦</span><span>Lịch học</span><kbd>03</kbd></button>
+        <button class="nav-token" data-action="navigate" data-route="focus"><span class="token-icon">◷</span><span>Focus timer</span><kbd>04</kbd></button>
+        <button class="nav-token" data-action="navigate" data-route="notes"><span class="token-icon">✎</span><span>Sổ ghi chú</span><kbd>05</kbd></button>
+        <button class="nav-token" data-action="navigate" data-route="sources"><span class="token-icon">▤</span><span>Kho nguồn dữ liệu</span><kbd>06</kbd></button>
+        <button class="nav-token" data-action="navigate" data-route="cards"><span class="token-icon">◇</span><span>Thẻ ghi nhớ</span><kbd>07</kbd></button>
+        <button class="nav-token" data-action="navigate" data-route="quiz"><span class="token-icon">✳</span><span>Quiz ôn tập</span><kbd>08</kbd></button>
+        <button class="nav-token" data-action="navigate" data-route="stats"><span class="token-icon">▥</span><span>Thống kê</span><kbd>09</kbd></button>
+        <button class="nav-token" data-action="navigate" data-route="entertainment"><span class="token-icon">✦</span><span>Giải trí & nghỉ ngơi</span><kbd>10</kbd></button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="sidebar-tip"><span>✦</span><div><strong>Một bước mỗi lần</strong><small>Nhất quán hơn hoàn hảo.</small></div></div>
+        <button class="nav-token" data-action="navigate" data-route="settings"><span class="token-icon">⚙</span><span>Tùy chỉnh</span><kbd>11</kbd></button>
+        <button class="nav-token nav-logout" data-action="logout"><span class="token-icon">⇥</span><span>Đăng xuất</span></button>
+      </div>
+    </aside>
+
+    <div class="app-content">
+      <header class="app-topbar">
+        <div class="topbar-leading"><button class="icon-button mobile-menu" data-action="open-sidebar" aria-label="Mở menu">☰</button><div class="breadcrumb"><span>Không gian của bạn</span><b>/</b><strong id="currentSectionLabel">Tổng quan</strong></div></div>
+        <div class="topbar-actions"><label class="search-box"><span>⌕</span><input id="globalSearch" type="search" placeholder="Tìm nhiệm vụ hoặc nguồn..." aria-label="Tìm nhiệm vụ"></label><button class="icon-button" data-action="top-theme" aria-label="Đổi sáng tối" title="Đổi sáng tối">◐</button><button class="profile-chip" data-action="navigate" data-route="settings"><span id="profileAvatar" class="avatar avatar-small">N</span><span id="profileName">Người học</span><span class="profile-chevron">⌄</span></button></div>
+      </header>
+      <main id="viewContainer" class="view-container" tabindex="-1"></main>
+      <footer class="app-footer"><span>© 2026 LYNQUORA STUDYSPACE</span><span>Học tốt, nghỉ ngơi đủ và tử tế với chính mình. <i>✦</i></span></footer>
+    </div>
+  </div>
+
+  <div id="authModal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="authTitle">
+    <div class="auth-panel modal-panel">
+      <button class="modal-close" data-action="close-auth" aria-label="Đóng">×</button>
+      <div class="auth-symbol"><span class="brand-mark"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M11 8v24h20M11 8h8M26 8h5v5"/></svg></span></div>
+      <div class="eyebrow">MỞ KHÔNG GIAN CỦA BẠN</div><h2 id="authTitle">Chào mừng trở lại</h2><p id="authSubtitle">Tiếp tục hành trình học tập của bạn.</p>
+      <div class="auth-tabs"><button class="auth-tab active" data-action="auth-mode" data-mode="login">Đăng nhập</button><button class="auth-tab" data-action="auth-mode" data-mode="signup">Tạo tài khoản</button></div>
+      <form id="authForm" class="stack-form">
+        <div id="displayNameField" class="form-field hidden"><label for="displayNameInput">Tên bạn muốn hiển thị</label><input id="displayNameInput" name="displayName" autocomplete="nickname" maxlength="32" placeholder="Ví dụ: Minh Anh"></div>
+        <div class="form-field"><label for="usernameInput">Tên tài khoản</label><input id="usernameInput" name="username" autocomplete="username" required minlength="3" maxlength="24" placeholder="vd. minh.anh_09"><small>3–24 ký tự: chữ cái, số, dấu chấm, gạch dưới hoặc gạch ngang.</small></div>
+        <div class="form-field"><label for="passwordInput">Mật khẩu</label><input id="passwordInput" name="password" type="password" autocomplete="current-password" required minlength="8" placeholder="Ít nhất 8 ký tự"><small id="passwordHint">Mật khẩu được băm trước khi lưu trên thiết bị.</small></div>
+        <div id="authError" class="form-error hidden" role="alert"></div>
+        <button id="authSubmit" class="button button-primary button-full button-large" type="submit">Đăng nhập <span>→</span></button>
+      </form>
+      <div class="auth-local-note"><span>⌑</span><p>Phiên đăng nhập được ghi nhớ trên trình duyệt này cho đến khi bạn đăng xuất. Không bật ghi nhớ trên thiết bị dùng chung.</p></div>
+    </div>
+  </div>
+
+  <div id="dialogHost"></div>
+  <div id="toastRegion" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <noscript><div class="noscript-warning">Lynquora StudySpace cần JavaScript để hoạt động. Hãy bật JavaScript trong trình duyệt và tải lại trang.</div></noscript>
+</body>
+</html>
